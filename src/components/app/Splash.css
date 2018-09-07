@@ -1,0 +1,16 @@
+:local(.splash) {
+  $brown: rgb(82, 39, 0);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  background: $brown;
+  height: 100vh;
+  p {
+    margin: 20px;
+  }
+}
