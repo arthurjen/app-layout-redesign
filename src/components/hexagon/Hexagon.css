@@ -1,0 +1,46 @@
+:local(.hexagon) {
+  $blue: rgb(36, 36, 104);
+  $gold: gold;
+
+
+  display: grid;
+  grid-template: repeat(5, minmax(100%, 19vh)) / 1fr;
+  grid-gap: 10px 10px;
+  border: 2px solid red;
+
+  .shelf {
+    display: grid;
+    grid-template: 1fr / repeat(32, minmax(1.4em, 100%));
+    padding-left: 2em;
+    border: 1px solid black;
+  }
+
+  .book {
+    transition: all 0.3s ease;
+    background: $blue;
+    height: 30px;
+    width: 150px;
+    text-shadow: 0px 1px 1px gold;
+	  color: $gold;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $gold;
+  }
+  .book:hover {
+    opacity: 0.8;
+  }
+
+  .rotate {
+    transform-origin: top left;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    }
+}

@@ -17,19 +17,16 @@ class Header extends PureComponent {
           <nav>
             <ul>
               <li>
-                <NavLink exact to="/goals">
-                  <i className="fas fa-list"></i> library
-                </NavLink>
+                <NavLink exact to="/hexagon">hexagon</NavLink>
               </li>
               <li>
-                <NavLink exact to="/users">
-                  <i className="fas fa-users"></i> users
-                </NavLink>
+                <NavLink exact to="/text">text</NavLink>
               </li>
               <li>
-                <NavLink to="/">
-                  <i className="fas fa-sign-out-alt"></i> logout
-                </NavLink>
+                <NavLink exact to="/librarians">librarians</NavLink>
+              </li>
+              <li>
+                <NavLink to="/auth">login</NavLink>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,11 @@
+:local(.text) {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: '. auto .';
+  text-overflow: wrap;
+  text-align: left;
+
+  .content {
+    grid-area: content;
+  }
+}

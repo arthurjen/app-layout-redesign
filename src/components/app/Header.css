@@ -1,4 +1,15 @@
 :local(.header) {
+  h1 {
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
 
+    list-style-type: none;
+
+  }
   
 }
