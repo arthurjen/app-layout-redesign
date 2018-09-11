@@ -7,13 +7,12 @@
   display: grid;
   grid-template: repeat(5, minmax(100%, 19vh)) / 1fr;
   grid-gap: 10px 10px;
-  border: 2px solid red;
 
   .shelf {
     display: grid;
     grid-template: 1fr / repeat(32, minmax(1.4em, 100%));
-    padding-left: 2em;
-    border: 1px solid black;
+    padding-top: 2em;
+    padding-left: 3.5em;
     // transform: translate3d(-255px, 0px, 0px);
 
   }

@@ -6,8 +6,15 @@ class Auth extends PureComponent {
     return (
       <form className={styles.auth}>
         <p>welcome, librarian.</p>
-        <input placeholder="name"/>
-        <input placeholder="password"/>
+        <label>
+          <i className="fas fa-user"></i>
+          <input placeholder="name"/>
+        </label>
+        <label>
+          <i className="fas fa-key"></i>
+          <input placeholder="password"/>
+        </label>
+        <p>don't have an account? sign up.</p>
       </form>
     );
   }
