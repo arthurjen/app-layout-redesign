@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import styles from './Home.css';
 
 export class Home extends Component {
@@ -10,11 +11,10 @@ export class Home extends Component {
         <section>
           <h1>The Library of Babel</h1>
           <h2>by Jorge Luis Borges</h2>
-          <p>a visual representation</p>
+          <p>a visual exploration</p>
         </section>
       </div>
     );
   }
 }
- 
 export default Home;

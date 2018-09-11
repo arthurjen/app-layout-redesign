@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+// import { TransitionGroup } from 'react-transition-group';
 import Header from './Header';
 import Home from './Home';
 import Hexagon from '../hexagon/Hexagon';
@@ -8,6 +9,9 @@ import Text from '../hexagon/Text';
 import Auth from '../auth/Auth';
 import Splash from './Splash';
 import styles from './App.css';
+
+
+
 
 class App extends PureComponent {
   state = {

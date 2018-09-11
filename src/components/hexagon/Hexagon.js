@@ -1,10 +1,8 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
-
 import styles from './Hexagon.css';
 
 class Hexagon extends PureComponent {
-
   render() { 
     return (
       <section className={styles.hexagon}>
@@ -13,10 +11,11 @@ class Hexagon extends PureComponent {
     );
   }
 }
+export default Hexagon;
+
+
 
 class Shelf extends PureComponent {
- 
-
   render() { 
     return (
       <section className="shelf">
@@ -25,6 +24,11 @@ class Shelf extends PureComponent {
     );
   }
 }
+
+
+
+
+
 
 class Book extends PureComponent {
 
@@ -60,7 +64,3 @@ class Book extends PureComponent {
     );
   }
 }
-
-
-
-export default Hexagon;
