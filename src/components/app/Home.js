@@ -7,8 +7,11 @@ export class Home extends Component {
 
     return (
       <div className={styles.home}>
-        <h1>library of babel</h1>
-        
+        <section>
+          <h1>The Library of Babel</h1>
+          <h2>by Jorge Luis Borges</h2>
+          <p>a visual representation</p>
+        </section>
       </div>
     );
   }

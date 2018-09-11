@@ -32,6 +32,12 @@ class Text extends PureComponent {
     const { book } = this.state;
     return (
       <section className={styles.text}>
+        <div>
+          <button>
+            <i className="fas fa-bookmark"></i>
+            Save
+          </button>
+        </div>
         <div className="content">
           {book.map((e, i) => <Line line={e} key={i}/>)}
         </div>
@@ -48,7 +54,7 @@ class Line extends PureComponent {
 
   static propTypes = {
     line: PropTypes.string.isRequired
-  }
+  };
 
   render() {
     const { line } = this.props;

@@ -1,5 +1,6 @@
 :local(.splash) {
   $brown: rgb(82, 39, 0);
+
   position: absolute;
   z-index: 5;
   display: flex;
@@ -10,8 +11,8 @@
   color: white;
 
   background: $brown;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   p {
     margin: 20px;

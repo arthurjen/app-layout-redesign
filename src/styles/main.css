@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -6,12 +8,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: 'Crimson Text', serif;
+  background: #F2EDDC;
 }
 
 .page-container {
   height: 100vh;
   display: grid;
-  grid-template: minmax(50px, 100px) 1fr / 1fr;
+  grid-template: minmax(min-content, 100px) 1fr / 1fr;
   grid-template-areas:
     "header"
     "content"
@@ -30,9 +33,12 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
 }
 
-h1 {
+input {
+  font-family: 'Crimson Text', serif;
 }
 
 button {

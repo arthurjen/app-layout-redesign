@@ -53,7 +53,9 @@ class Book extends PureComponent {
 
     return (
       <section className={['rotate', 'book'].join(' ')}>
-        <Link to="/text">{title.toUpperCase()}</Link>
+        <Link to="/text">
+          {title.toUpperCase()}
+        </Link>
       </section>
     );
   }
