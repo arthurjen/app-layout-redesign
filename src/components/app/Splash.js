@@ -5,7 +5,8 @@ import styles from './Splash.css';
 class Splash extends Component {
   static propTypes = {
     onClick: PropTypes.func.isRequired
-  }
+  };
+  
   render() { 
     return (
       <div className={styles.splash} onClick={this.props.onClick}>

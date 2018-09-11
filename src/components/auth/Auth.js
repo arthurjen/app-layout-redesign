@@ -14,7 +14,7 @@ class Auth extends PureComponent {
           <i className="fas fa-key"></i>
           <input placeholder="password"/>
         </label>
-        <p>don't have an account? sign up.</p>
+        <p>don&apos;t have an account? sign up.</p>
       </form>
     );
   }
